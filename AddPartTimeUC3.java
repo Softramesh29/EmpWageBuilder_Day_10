@@ -5,7 +5,7 @@ public class AddPartTimeUC3 {
     static final int WAGE_PER_HRS = 20;
     static final int IS_PART_TIME = 2;
     
-    public static void EmpCheck() {
+    public static void addPartTime() {
     	int empHrs = 0;
     	int empwage = 0;
 
@@ -22,6 +22,6 @@ public class AddPartTimeUC3 {
     
     public static void main(String[] args) {
     	AddPartTimeUC3 object = new AddPartTimeUC3();
-        object.EmpCheck();
+        object.addPartTime();
     }
 }
